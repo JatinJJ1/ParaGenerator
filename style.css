@@ -1,0 +1,58 @@
+*{
+    background-color:rgb(167, 200, 230);
+    font-family: "montserrat";
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    width:80%;
+    background-color: white;
+    margin: auto;
+    min-height: 100px;
+    padding:100px 50px;
+    box-sizing: border-box;
+}
+
+.container h1{
+    background-color: white;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#numOfWords{
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    margin-top: 20px;
+    border: 1px solid rgb(223, 219, 219);
+    outline:none;
+    font: 100 1.3rem sans-serif;
+}
+
+button{
+    color:rgb(255, 255, 255);
+    background-color: rgb(98, 138, 179);
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(223, 219, 219);
+    outline:none;
+    font: 100 1.3rem sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgb(75, 75, 76);
+    transition: background-color 0.5s;
+}
+
+.paras{
+    background-color: rgb(216, 223, 223);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding:20px;
+    border-radius: 5px;
+    margin-top:20px;
+}
